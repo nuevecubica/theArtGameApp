@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF36E501F33F4790083BAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF36E4F1F33F4790083BAC1 /* AppDelegate.swift */; };
+		FAF36E521F33F4790083BAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF36E511F33F4790083BAC1 /* ViewController.swift */; };
+		FAF36E551F33F4790083BAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF36E531F33F4790083BAC1 /* Main.storyboard */; };
+		FAF36E571F33F4790083BAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF36E561F33F4790083BAC1 /* Assets.xcassets */; };
+		FAF36E5A1F33F4790083BAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF36E581F33F4790083BAC1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAF36E4C1F33F4790083BAC1 /* theArtGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theArtGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF36E4F1F33F4790083BAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF36E511F33F4790083BAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF36E541F33F4790083BAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF36E561F33F4790083BAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF36E591F33F4790083BAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF36E5B1F33F4790083BAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF36E491F33F4790083BAC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF36E431F33F4790083BAC1 = {
+			isa = PBXGroup;
+			children = (
+				FAF36E4E1F33F4790083BAC1 /* theArtGameApp */,
+				FAF36E4D1F33F4790083BAC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF36E4D1F33F4790083BAC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF36E4C1F33F4790083BAC1 /* theArtGameApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF36E4E1F33F4790083BAC1 /* theArtGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAF36E4F1F33F4790083BAC1 /* AppDelegate.swift */,
+				FAF36E511F33F4790083BAC1 /* ViewController.swift */,
+				FAF36E531F33F4790083BAC1 /* Main.storyboard */,
+				FAF36E561F33F4790083BAC1 /* Assets.xcassets */,
+				FAF36E581F33F4790083BAC1 /* LaunchScreen.storyboard */,
+				FAF36E5B1F33F4790083BAC1 /* Info.plist */,
+			);
+			path = theArtGameApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF36E4B1F33F4790083BAC1 /* theArtGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF36E5E1F33F4790083BAC1 /* Build configuration list for PBXNativeTarget "theArtGameApp" */;
+			buildPhases = (
+				FAF36E481F33F4790083BAC1 /* Sources */,
+				FAF36E491F33F4790083BAC1 /* Frameworks */,
+				FAF36E4A1F33F4790083BAC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = theArtGameApp;
+			productName = theArtGameApp;
+			productReference = FAF36E4C1F33F4790083BAC1 /* theArtGameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF36E441F33F4790083BAC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "alex vaught";
+				TargetAttributes = {
+					FAF36E4B1F33F4790083BAC1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 48ZZ923FW9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FAF36E471F33F4790083BAC1 /* Build configuration list for PBXProject "theArtGameApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF36E431F33F4790083BAC1;
+			productRefGroup = FAF36E4D1F33F4790083BAC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF36E4B1F33F4790083BAC1 /* theArtGameApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF36E4A1F33F4790083BAC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF36E5A1F33F4790083BAC1 /* LaunchScreen.storyboard in Resources */,
+				FAF36E571F33F4790083BAC1 /* Assets.xcassets in Resources */,
+				FAF36E551F33F4790083BAC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF36E481F33F4790083BAC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF36E521F33F4790083BAC1 /* ViewController.swift in Sources */,
+				FAF36E501F33F4790083BAC1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF36E531F33F4790083BAC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF36E541F33F4790083BAC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF36E581F33F4790083BAC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF36E591F33F4790083BAC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF36E5C1F33F4790083BAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF36E5D1F33F4790083BAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF36E5F1F33F4790083BAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48ZZ923FW9;
+				INFOPLIST_FILE = theArtGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nuevecubica.theArtGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAF36E601F33F4790083BAC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48ZZ923FW9;
+				INFOPLIST_FILE = theArtGameApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.nuevecubica.theArtGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF36E471F33F4790083BAC1 /* Build configuration list for PBXProject "theArtGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF36E5C1F33F4790083BAC1 /* Debug */,
+				FAF36E5D1F33F4790083BAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF36E5E1F33F4790083BAC1 /* Build configuration list for PBXNativeTarget "theArtGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF36E5F1F33F4790083BAC1 /* Debug */,
+				FAF36E601F33F4790083BAC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF36E441F33F4790083BAC1 /* Project object */;
+}
