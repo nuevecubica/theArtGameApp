@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FAE36C3C8E8DAB81D52CD8D /* Pods_theArtGameApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0906178163C38E6CF60DABB0 /* Pods_theArtGameApp.framework */; };
+		905EAFC98C40A2E7B6197247 /* Pods_theArtGameApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E687EA1A7CEC5174D329340C /* Pods_theArtGameApp.framework */; };
+		FA2AF02D20CF122500787DC1 /* popUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2AF02C20CF122500787DC1 /* popUpViewController.swift */; };
 		FAF36E501F33F4790083BAC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF36E4F1F33F4790083BAC1 /* AppDelegate.swift */; };
 		FAF36E521F33F4790083BAC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF36E511F33F4790083BAC1 /* ViewController.swift */; };
 		FAF36E551F33F4790083BAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF36E531F33F4790083BAC1 /* Main.storyboard */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0261C8E3209CD73201349C9F /* Pods-theArtGameApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theArtGameApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp.debug.xcconfig"; sourceTree = "<group>"; };
-		0906178163C38E6CF60DABB0 /* Pods_theArtGameApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_theArtGameApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B24396BDE5F934E39BA15C7C /* Pods-theArtGameApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theArtGameApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp.release.xcconfig"; sourceTree = "<group>"; };
+		07C2893F1A450FFD8E444F2F /* Pods-theArtGameApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theArtGameApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp.release.xcconfig"; sourceTree = "<group>"; };
+		4DABA151E3A30C608F99D2E1 /* Pods-theArtGameApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theArtGameApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E687EA1A7CEC5174D329340C /* Pods_theArtGameApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_theArtGameApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2AF02C20CF122500787DC1 /* popUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpViewController.swift; sourceTree = "<group>"; };
 		FAF36E4C1F33F4790083BAC1 /* theArtGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theArtGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF36E4F1F33F4790083BAC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAF36E511F33F4790083BAC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,28 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAE36C3C8E8DAB81D52CD8D /* Pods_theArtGameApp.framework in Frameworks */,
+				905EAFC98C40A2E7B6197247 /* Pods_theArtGameApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7B513BCDC76FD6F2E0C2D034 /* Frameworks */ = {
+		30295FBDF368BD8329F2A002 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0906178163C38E6CF60DABB0 /* Pods_theArtGameApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C7B1DAF21B7F908166B1FFCD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0261C8E3209CD73201349C9F /* Pods-theArtGameApp.debug.xcconfig */,
-				B24396BDE5F934E39BA15C7C /* Pods-theArtGameApp.release.xcconfig */,
+				4DABA151E3A30C608F99D2E1 /* Pods-theArtGameApp.debug.xcconfig */,
+				07C2893F1A450FFD8E444F2F /* Pods-theArtGameApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF7A24559F1025A903EF66A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E687EA1A7CEC5174D329340C /* Pods_theArtGameApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FAF36E431F33F4790083BAC1 = {
@@ -62,8 +64,8 @@
 			children = (
 				FAF36E4E1F33F4790083BAC1 /* theArtGameApp */,
 				FAF36E4D1F33F4790083BAC1 /* Products */,
-				7B513BCDC76FD6F2E0C2D034 /* Frameworks */,
-				C7B1DAF21B7F908166B1FFCD /* Pods */,
+				30295FBDF368BD8329F2A002 /* Pods */,
+				EF7A24559F1025A903EF66A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +82,7 @@
 			children = (
 				FAF36E4F1F33F4790083BAC1 /* AppDelegate.swift */,
 				FAF36E511F33F4790083BAC1 /* ViewController.swift */,
+				FA2AF02C20CF122500787DC1 /* popUpViewController.swift */,
 				FAF36E531F33F4790083BAC1 /* Main.storyboard */,
 				FAF36E561F33F4790083BAC1 /* Assets.xcassets */,
 				FAF36E581F33F4790083BAC1 /* LaunchScreen.storyboard */,
@@ -95,12 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAF36E5E1F33F4790083BAC1 /* Build configuration list for PBXNativeTarget "theArtGameApp" */;
 			buildPhases = (
-				C4D14B3B1D6D9F6FD9987C9A /* [CP] Check Pods Manifest.lock */,
+				AD560B236C42BC4A5A84B33B /* [CP] Check Pods Manifest.lock */,
 				FAF36E481F33F4790083BAC1 /* Sources */,
 				FAF36E491F33F4790083BAC1 /* Frameworks */,
 				FAF36E4A1F33F4790083BAC1 /* Resources */,
-				C6AD02497E9ACC5C308BE42D /* [CP] Embed Pods Frameworks */,
-				6FB17BCDA2891C6AB00D5908 /* [CP] Copy Pods Resources */,
+				A595E4BAB25CEDDFA57B0106 /* [CP] Embed Pods Frameworks */,
+				FE87398D1148EF19309F4113 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -117,13 +120,17 @@
 		FAF36E441F33F4790083BAC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					a1,
+				);
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "alex vaught";
 				TargetAttributes = {
 					FAF36E4B1F33F4790083BAC1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 48ZZ923FW9;
+						DevelopmentTeam = F4CBL5BY33;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -160,40 +167,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6FB17BCDA2891C6AB00D5908 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4D14B3B1D6D9F6FD9987C9A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-theArtGameApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C6AD02497E9ACC5C308BE42D /* [CP] Embed Pods Frameworks */ = {
+		A595E4BAB25CEDDFA57B0106 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,6 +185,39 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AD560B236C42BC4A5A84B33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-theArtGameApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE87398D1148EF19309F4113 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-theArtGameApp/Pods-theArtGameApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2AF02D20CF122500787DC1 /* popUpViewController.swift in Sources */,
 				FAF36E521F33F4790083BAC1 /* ViewController.swift in Sources */,
 				FAF36E501F33F4790083BAC1 /* AppDelegate.swift in Sources */,
 			);
@@ -254,15 +262,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -285,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -303,15 +319,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -328,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -338,29 +362,33 @@
 		};
 		FAF36E5F1F33F4790083BAC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0261C8E3209CD73201349C9F /* Pods-theArtGameApp.debug.xcconfig */;
+			baseConfigurationReference = 4DABA151E3A30C608F99D2E1 /* Pods-theArtGameApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 48ZZ923FW9;
+				DEVELOPMENT_TEAM = F4CBL5BY33;
 				INFOPLIST_FILE = theArtGameApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica.theArtGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		FAF36E601F33F4790083BAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B24396BDE5F934E39BA15C7C /* Pods-theArtGameApp.release.xcconfig */;
+			baseConfigurationReference = 07C2893F1A450FFD8E444F2F /* Pods-theArtGameApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 48ZZ923FW9;
+				DEVELOPMENT_TEAM = F4CBL5BY33;
 				INFOPLIST_FILE = theArtGameApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nuevecubica.theArtGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
