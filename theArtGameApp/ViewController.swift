@@ -143,21 +143,33 @@ class ViewController: UIViewController {
         self.gameScore.textColor = UIColor.white
         }
     }
+    
+    
+    
 	@IBAction func selectAnswer(_ sender: UIButton) {
        
 		let senderTag = "a\(sender.tag)"
+        
 		print("\(senderTag) \(correct)")
+        
 		if senderTag == correct {
-             var popUpViewController: UIViewController {
-           let popUp = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "popUpViewController") as! popUpViewController
-            popUp.oImage = "right-icon"
-            popUp.oAnswer = "ok"
-            popUp.oTitle = "YES!"
-            return popUp
-            }
             
-            performSegue(withIdentifier: "presentModal", sender: nil)
+            func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+                if let popUpViewController = segue.destination as? popUpViewController{
+                    popUpViewController.modalTitle.text = "punchino"
+                    popUpViewController.modalText.text = Answer!
+                }
+            }
+            //performSegue(withIdentifier: "presentModal", sender: nil)
             rightAnswer()
+            
+         
+            
+            let vc = storyboard?.instantiateViewController(withIdentifier: "lepopup") as! popUpViewController
+            //vc.modalTitle.text = "Beautiful"
+           
+            navigationController?.pushViewController(vc, animated: true)
+         
 			//sender.backgroundColor = UIColor(red:0.44, green:0.51, blue:0.23, alpha:1.0)
             
             /*
@@ -192,7 +204,7 @@ class ViewController: UIViewController {
 		
 	}
 	//----------------
-	
+    
 	
 	//-----------------
 }

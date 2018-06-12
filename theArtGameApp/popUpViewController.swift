@@ -8,10 +8,10 @@
 
 import UIKit
 
+
+
 class popUpViewController: UIViewController {
-    var oImage: String! = nil
-    var oTitle: String! = nil
-    var oAnswer: String! = nil
+
     
     @IBOutlet weak var viewPopUp: UIView!
     @IBOutlet weak var modalTitle: UILabel!
@@ -20,8 +20,6 @@ class popUpViewController: UIViewController {
     @IBOutlet weak var modalButton: UIButton!
     @IBAction func closeModal(_ sender: UIButton) {
         dismiss(animated: true)
-        
-        
     }
     
     override func viewDidLoad() {
@@ -30,19 +28,12 @@ class popUpViewController: UIViewController {
         // Do any additional setup after loading the view.
        
         viewPopUp.layer.cornerRadius = 10
-        
-        changeInfo(oImage,oTitle,oAnswer)
-        
+
+         modalTitle.text = "SUOER TEST";
        
         
     }
-   
-    func changeInfo(_ img: String,_ tit: String,_ text: String) {
-        modalImage.image = UIImage(named: img)
-        modalTitle.text = tit
-        modalText.text = text
-    }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

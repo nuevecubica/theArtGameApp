@@ -136,7 +136,7 @@
         <!--Pop Up View Controller-->
         <scene sceneID="gyY-5B-SOo">
             <objects>
-                <viewController modalPresentationStyle="overCurrentContext" id="wqS-RC-S73" customClass="popUpViewController" customModule="theArtGameApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="lepopup" modalPresentationStyle="overCurrentContext" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wqS-RC-S73" customClass="popUpViewController" customModule="theArtGameApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Co-fg-28G"/>
                         <viewControllerLayoutGuide type="bottom" id="d1X-d4-asb"/>
